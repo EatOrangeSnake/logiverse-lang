@@ -1,0 +1,5 @@
+.necessary
+
+condition
+
+false necessary condition

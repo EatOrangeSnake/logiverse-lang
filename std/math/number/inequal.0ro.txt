@@ -1,0 +1,5 @@
+.equal
+..category.not
+
+first equal (not second)
+first inequal second

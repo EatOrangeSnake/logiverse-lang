@@ -1,0 +1,3 @@
+.opposite
+
+conditions opposite (not conditions)

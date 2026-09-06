@@ -1,0 +1,8 @@
+.and
+.sufficient
+
+condition1
+condition2
+
+(condition1 and condition2) sufficient condition1
+(condition1 and condition2) sufficient condition2

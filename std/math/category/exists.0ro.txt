@@ -1,0 +1,3 @@
+.necessary
+
+conditions necessary (exists conditions)

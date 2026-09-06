@@ -1,0 +1,5 @@
+.sufficient
+
+conditions sufficient conclusions
+
+conclusions necessary conditions

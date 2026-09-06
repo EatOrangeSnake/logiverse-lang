@@ -1,0 +1,5 @@
+.sufficient
+
+condition
+
+condition sufficient true

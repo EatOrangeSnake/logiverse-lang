@@ -1,0 +1,3 @@
+.succ
+
+integer succ (integer next)

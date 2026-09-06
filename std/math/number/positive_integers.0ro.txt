@@ -1,0 +1,4 @@
+.succ
+.natural
+
+natural succ positive_integers
