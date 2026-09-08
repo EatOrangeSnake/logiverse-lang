@@ -1,5 +1,6 @@
 .complement
 .exclusive
+.opposite
 
 condition1 complement condition2
 condition1 exclusive condition2

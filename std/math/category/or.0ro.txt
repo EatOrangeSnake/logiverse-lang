@@ -1,4 +1,5 @@
 .necessary
+.or
 
 condition1 or condition2
 

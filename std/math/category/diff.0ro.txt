@@ -1,5 +1,6 @@
 .and
 .not
 .equivalent
+.diff
 
 (cake diff hole) equivalent (cake and (not hole))

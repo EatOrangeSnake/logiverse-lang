@@ -1,3 +1,0 @@
-.proper
-
-(in conditions) proper conditions

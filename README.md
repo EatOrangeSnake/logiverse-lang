@@ -39,11 +39,11 @@ conditions sufficient conclusions # 表示对于任何这样的句式，都会�
 ```
 这段代码定义了一个**充分推导**关系，表示“如果有一个自变量`conditions`，那么因变量`conclusions`就一定是满足`conditions`的一个概念”，即`conclusions`是所有满足`conditions`约束的概念组成的集合的子集。
 ### 模块引用
-以`.`开头且后面部分以`.`分隔的语句的作用是引用某个相对路径的同名概念，可以用`{}`在某一层级下引用被`,`分隔的多个分支下的概念。模块以文件为基本单位，但固定状态是互相独立的。如果没找到文件，则提供一个概念共享的钩子，方便同级模块下约束同一个概念的指代。
+以`.`开头且后面部分以`.`分隔的语句的作用是引用某个相对路径目录下的概念，可以用`[]`在某一层级下引用被`,`分隔的多个分支下的概念。模块以目录为基本单位，但固定状态是互相独立的。如果没找到目标概念，则提供一个概念共享的钩子，方便同级模块下约束同一个概念的指代。
 #### 举例说明
 考虑以下代码（摘自标准库文件`./std/math/category/necessary.0ro.txt`）：
 ```0ro
-.sufficient.sufficient # 导入`./std/math/category/sufficient.0ro.txt`代码文件的`sufficient`概念。
+.sufficient # 导入`./std/math/category/sufficient.0ro.txt`代码文件的`sufficient`概念。
 
 conditions sufficient conclusions # 约束`conditions`能充分推出`conclusions`。
 
@@ -73,3 +73,6 @@ I eat (what I like best)
 ```
 ##### 开发者的话
 你去问问有多少个编程语言能做到这么贴合英语语法的吧。
+### 概念详解
+对于概念范围的选定，更加详细的解释如下：
+>有一个待定概念P，P是概念C的集合，C又是纯原子概念A的集合，也就是说，C属于P，A属于C。一开始，所有概念都是P，但是等到解析结束的时候，解析器会自动将这个待定概念P坍缩为在已有约束下能覆盖最多概念的概念C，这个概念C是纯原子概念A的集合，代表着概念C在关系r中与另一个概念C'中所有A的纯原子概念都能与C'的A'产生联系。

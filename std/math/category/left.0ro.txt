@@ -1,3 +1,4 @@
 .equivalent
+.left
 
 (first left second) equivalent first

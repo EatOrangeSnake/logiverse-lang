@@ -1,0 +1,4 @@
+.proper
+.part
+
+(part conditions) proper conditions

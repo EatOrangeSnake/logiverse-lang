@@ -1,5 +1,6 @@
 .equivalent
 .not
+.inquivalent
 
 first equivalent (not second)
-first inequivalent second
+first inquivalent second

@@ -1,3 +1,4 @@
 .opposite
+.not
 
 conditions opposite (not conditions)

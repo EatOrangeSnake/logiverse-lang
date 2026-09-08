@@ -1,5 +1,5 @@
-.and
 .sufficient
+.and
 
 condition1
 condition2

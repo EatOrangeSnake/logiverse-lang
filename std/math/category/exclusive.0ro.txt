@@ -1,6 +1,7 @@
 .equivalent
 .and
 .false
+.exclusive
 
 (condition1 and condition2) equivalent false
 

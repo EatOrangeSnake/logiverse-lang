@@ -1,5 +1,6 @@
 .inequivalent
 .necessary
+.proper
 
 first inequivalent second
 first necessary second
