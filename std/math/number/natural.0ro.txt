@@ -1,5 +1,0 @@
-..category.{or, equivalent}
-.zero
-.positive_integers
-
-natural equivalent (zero or positive_integers)

@@ -1,7 +1,0 @@
-.zero
-.next
-
-zero equal zero
-
-a equal a
-(a next) equal (a next)

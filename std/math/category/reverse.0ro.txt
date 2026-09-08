@@ -1,0 +1,5 @@
+.equivalent
+
+a relations b
+b rev a
+(reverse relations) equivalent rev

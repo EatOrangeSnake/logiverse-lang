@@ -1,0 +1,3 @@
+.equivalent
+
+(first left second) equivalent first

@@ -1,0 +1,5 @@
+.diff
+.or
+.equivalent
+
+(first xor second) equivalent ((first diff second) or (second diff first))
