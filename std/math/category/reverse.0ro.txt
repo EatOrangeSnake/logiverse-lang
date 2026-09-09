@@ -1,4 +1,5 @@
 .equivalent
+.relations
 .reverse
 
 a relations b
