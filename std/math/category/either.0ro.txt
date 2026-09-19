@@ -1,0 +1,8 @@
+.either
+.or
+.equivalent
+
+relation1 a
+relation2 b
+relation {a or b}
+{relation1 either relation2} equivalent relation

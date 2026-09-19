@@ -2,9 +2,23 @@
 .succ
 .next
 .equal
+.inequal
+.less
+.greater
+.less_equal
+.greater_equal
+.numbers
+.integers
+.positive_integers
+.negative_integers
+.naturals
 
 ..category.reverse
-..category.opposite
+..category.deny
+..category.either
+..category.equivalent
+..category.sufficient
+..category.in
 
 zero equal zero
 
@@ -12,3 +26,25 @@ zero succ {zero next}
 
 a equal a
 {a next} equal {a next}
+
+a less {a next}
+b less c
+b less {c next}
+
+{deny equal} equivalent inequal
+{less either equal} equivalent less_equal
+{deny less_equal} equivalent greater
+{greater either equal} equivalent greater_equal
+
+numbers sufficient integers
+integers sufficient zero
+{in integers} succ {in integers}
+
+integers sufficient positive_integers
+zero less positive_integers
+
+integers sufficient negative_integers
+zero greater negative_integers
+
+integers sufficient naturals
+zero less_equal naturals
