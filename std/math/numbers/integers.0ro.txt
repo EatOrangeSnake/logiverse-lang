@@ -19,6 +19,7 @@
 ..category.equivalent
 ..category.sufficient
 ..category.in
+..category.exclusive
 
 zero equal zero
 
@@ -30,6 +31,8 @@ a equal a
 a less {a next}
 b less c
 b less {c next}
+
+equal exclusive less
 
 {deny equal} equivalent inequal
 {less either equal} equivalent less_equal
