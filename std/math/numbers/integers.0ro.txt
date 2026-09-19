@@ -7,7 +7,7 @@
 .greater
 .less_equal
 .greater_equal
-.numbers
+..numbers
 .integers
 .positive_integers
 .negative_integers

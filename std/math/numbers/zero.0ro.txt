@@ -1,4 +1,4 @@
-.numbers
+..numbers
 ..category.sufficient
 .zero
 
