@@ -3,6 +3,6 @@
 .false
 .exclusive
 
-(condition1 and condition2) equivalent false
+{condition1 and condition2} equivalent false
 
 condition1 exclusive condition2

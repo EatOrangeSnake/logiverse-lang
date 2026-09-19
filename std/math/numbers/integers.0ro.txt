@@ -1,0 +1,14 @@
+.zero
+.succ
+.next
+.equal
+
+..category.reverse
+..category.opposite
+
+zero equal zero
+
+zero succ {zero next}
+
+a equal a
+{a next} equal {a next}

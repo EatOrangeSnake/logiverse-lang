@@ -1,4 +1,4 @@
 .opposite
 .not
 
-conditions opposite (not conditions)
+conditions opposite {not conditions}

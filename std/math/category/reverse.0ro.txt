@@ -1,7 +1,6 @@
-.equivalent
 .relations
 .reverse
 
 a relations b
 b rev a
-(reverse relations) equivalent rev
+relations reverse rev

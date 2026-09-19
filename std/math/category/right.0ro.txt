@@ -1,4 +1,4 @@
 .equivalent
 .right
 
-(first right second) equivalent second
+{first right second} equivalent second

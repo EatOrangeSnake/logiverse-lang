@@ -51,7 +51,7 @@ conclusions necessary conditions # 接着定义必要推导关系。
 ```
 ### 语法糖
 #### 子句
-我们可以使用**子句语法**让任何关系代指一个概念，并且用小括号或中括号作为分隔符。
+我们可以使用**子句语法**让任何关系代指一个概念，并且用小括号、中括号或花括号作为分隔符。（建议使用花括号）
 ##### 举例说明
 考虑以下代码：
 ```0ro
@@ -59,20 +59,18 @@ I like oranges best
 ```
 如果我们不知道我喜欢什么，那么想要获取喜欢什么就得这么写：
 ```0ro
-I like (my favourate food) best
-I eat (my favourate food)
+I like {my favourate food} best
+I eat {my favourate food}
 ```
 这需要先定义一个中间概念`my favourate food`，然后再使用，很麻烦。
 但是，如果我们能再加上：
 ```0ro
-I like (what I like best) best
+I like {what I like best} best
 ```
 那么解析器就会发现`what I like best`代指的概念和`oranges`完全等价，此时就可以这样使用：
 ```0ro
-I eat (what I like best)
+I eat {what I like best}
 ```
-##### 开发者的话
-你去问问有多少个编程语言能做到这么贴合英语语法的吧。
 ### 概念详解
 对于概念范围的选定，更加详细的解释如下：
 >有一个待定概念P，P是概念C的集合，C又是纯原子概念A的集合，也就是说，C属于P，A属于C。一开始，所有概念都是P，但是等到解析结束的时候，解析器会自动将这个待定概念P坍缩为在已有约束下能覆盖最多概念的概念C，这个概念C是纯原子概念A的集合，代表着概念C在关系r中与另一个概念C'中所有A的纯原子概念都能与C'的A'产生联系。

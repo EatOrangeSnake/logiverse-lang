@@ -1,0 +1,4 @@
+.not
+
+relations a
+rev {not a}

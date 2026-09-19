@@ -1,4 +1,4 @@
 .sufficient
 .any
 
-conditions sufficient (any conditions)
+conditions sufficient {any conditions}

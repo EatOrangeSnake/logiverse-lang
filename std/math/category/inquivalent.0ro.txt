@@ -2,5 +2,5 @@
 .not
 .inquivalent
 
-first equivalent (not second)
+first equivalent {not second}
 first inquivalent second
