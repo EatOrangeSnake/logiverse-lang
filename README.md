@@ -31,9 +31,9 @@
 #### 举例说明
 考虑以下代码（摘自标准库文件`./std/math/category/sufficient.0ro.txt`）：
 ```0ro
-conditions relations # 表示因变量`conditions`和`relations`有关联。
+conclusions relations # 表示因变量`conditions`和`relations`有关联。
 relations # 固定`relations`，让它作为自变量，但仍然限制它与`conditions`有关。
-conclusions relations # 表示自变量`conditions`和因变量`relations`有关系。
+conditions relations # 表示自变量`conditions`和因变量`relations`有关系。
 
 conditions sufficient conclusions # 表示对于任何这样的句式，都会填充句中概念使得满足相关的命题。
 ```
