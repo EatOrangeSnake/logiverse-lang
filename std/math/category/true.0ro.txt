@@ -1,6 +1,6 @@
-.sufficient
+.necessary
 .true
 
 condition
 
-condition sufficient true
+true necessary condition

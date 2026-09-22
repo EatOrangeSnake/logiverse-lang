@@ -1,8 +1,8 @@
 .inquivalent
-.sufficient
+.necessary
 .proper
 
 first inquivalent second
-first sufficient second
+first necessary second
 
 first proper second

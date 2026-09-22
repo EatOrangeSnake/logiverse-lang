@@ -1,10 +1,10 @@
-.sufficient
+.equivalent
 .relations
 .atom
 
 concept relations
 concept sufficient sub
 sub subrelations
-relations sufficient subrelations
+relations equivalent subrelations
 
 atom concept

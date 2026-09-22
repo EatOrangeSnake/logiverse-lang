@@ -1,4 +1,4 @@
-.necessary
+.sufficient
 .exists
 
-conditions necessary {exists conditions}
+conditions sufficient {exists conditions}

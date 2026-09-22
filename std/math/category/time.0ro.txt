@@ -1,0 +1,17 @@
+.time
+.space
+.in
+.relations
+.sufficient
+.not
+
+space sufficient a
+time sufficient t
+a in t
+relations sufficient rel
+space sufficient b
+a rel b
+b in t
+space sufficient c
+a {not rel} c
+not {c in t}
