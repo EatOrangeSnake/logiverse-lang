@@ -1,5 +1,0 @@
-..numbers
-..category.sufficient
-.zero
-
-numbers sufficient zero
