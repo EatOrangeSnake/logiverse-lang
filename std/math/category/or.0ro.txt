@@ -1,7 +1,4 @@
-.necessary
-.or
+condition1 .or condition2
 
-condition1 or condition2
-
-{condition1 or condition2} necessary condition1
-{condition1 or condition2} necessary condition2
+{condition1 .or condition2} .necessary condition1
+{condition1 .or condition2} .necessary condition2

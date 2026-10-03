@@ -1,4 +1,1 @@
-.necessary
-.any
-
-conditions necessary {any conditions}
+conditions .necessary {.any conditions}

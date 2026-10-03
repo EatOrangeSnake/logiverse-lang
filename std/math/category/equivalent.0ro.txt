@@ -1,9 +1,5 @@
-.sufficient
-.necessary
-.equivalent
+first .sufficient second
 
-first sufficient second
+first .necessary second
 
-first necessary second
-
-first equivalent second
+first .equivalent second

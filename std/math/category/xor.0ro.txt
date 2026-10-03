@@ -1,6 +1,1 @@
-.diff
-.or
-.equivalent
-.xor
-
-{first xor second} equivalent {{first diff second} or {second diff first}}
+{first .xor second} .equivalent {{first .diff second} .or {second .diff first}}

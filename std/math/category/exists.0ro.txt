@@ -1,4 +1,1 @@
-.sufficient
-.exists
-
-conditions sufficient {exists conditions}
+conditions .sufficient {.exists conditions}

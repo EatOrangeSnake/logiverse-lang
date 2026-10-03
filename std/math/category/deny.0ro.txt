@@ -1,7 +1,3 @@
-.deny
-.not
-.equivalent
-
-relations a
-rev {not a}
-{deny relations} equivalent rev
+.relations a
+rev {.not a}
+{.deny .relations} .equivalent rev

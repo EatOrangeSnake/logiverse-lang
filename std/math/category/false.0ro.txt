@@ -1,6 +1,3 @@
-.sufficient
-.false
-
 condition
 
-false sufficient condition
+.false .sufficient condition

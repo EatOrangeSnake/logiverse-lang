@@ -1,6 +1,3 @@
-.necessary
-.true
-
 condition
 
-true necessary condition
+.true .necessary condition

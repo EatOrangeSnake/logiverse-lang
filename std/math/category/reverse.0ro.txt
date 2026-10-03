@@ -1,6 +1,3 @@
-.relations
-.reverse
-
-a relations b
+a .relations b
 b rev a
-relations reverse rev
+.relations .reverse rev

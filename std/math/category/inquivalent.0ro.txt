@@ -1,6 +1,2 @@
-.equivalent
-.not
-.inquivalent
-
-first equivalent {not second}
-first inquivalent second
+first .equivalent {.not second}
+first .inquivalent second

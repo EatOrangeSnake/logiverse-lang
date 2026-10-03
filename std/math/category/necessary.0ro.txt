@@ -1,6 +1,3 @@
-.sufficient
-.necessary
+conditions .sufficient conclusions
 
-conditions sufficient conclusions
-
-conclusions necessary conditions
+conclusions .necessary conditions

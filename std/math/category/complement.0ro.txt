@@ -1,8 +1,3 @@
-.or
-.equivalent
-.true
-.complement
+{condition1 .or condition2} .equivalent .true
 
-{condition1 or condition2} equivalent true
-
-condition1 complement condition2
+condition1 .complement condition2
